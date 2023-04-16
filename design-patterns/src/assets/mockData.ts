@@ -1,13 +1,9 @@
 import Image1 from './silver-grass.webp';
 import Image2 from './nami-island.webp';
 import Image3 from './jeju.webp';
+import { ImageDataType } from '../component/Compound/common/type';
 
-export type ImageDatasType = {
-  imageId: number;
-  imageSrc: string;
-};
-
-export const ImageDatas: Array<ImageDatasType> = [
+export const ImageDatas: Array<ImageDataType> = [
   {
     imageId: 1,
     imageSrc: Image1,

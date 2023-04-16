@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, useContext } from 'react';
 import { createContext, useState } from 'react';
-import { FlyOutContextType } from '../common/type';
+import { FlyOutContextType } from '../../common/type';
 
 export const FlyOutContext = createContext<FlyOutContextType>(null!);
 

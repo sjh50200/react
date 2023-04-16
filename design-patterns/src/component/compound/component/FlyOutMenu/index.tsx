@@ -1,5 +1,5 @@
 import React from 'react';
-import FlyOut from '../context/FlyOut';
+import FlyOut from '../FlyOut';
 
 const FlyOutMenu = () => {
   return (

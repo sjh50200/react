@@ -1,7 +1,7 @@
 import React from 'react';
 
-const CompoundPage = () => {
+const Compound = () => {
   return <div>Compound</div>;
 };
 
-export default CompoundPage;
+export default Compound;

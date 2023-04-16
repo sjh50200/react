@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Compound from '../pages/Compound';
+import CompoundPage from '../pages/Compound';
 
 const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<div>hello</div>} />
-        <Route path="/compound-pattern" element={<Compound />} />
+        <Route path="/compound-pattern" element={<CompoundPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,7 +1,8 @@
 import React from 'react';
+import FlyOutMenu from './FlyOutMenu';
 
 const Compound = () => {
-  return <div>Compound</div>;
+  return <FlyOutMenu />;
 };
 
 export default Compound;
